@@ -1,6 +1,7 @@
 ---
 - name: demo
   hosts: S-10_10.215.27.10
+  gather_facts: no
 
   tasks:
     - name: Create vlan
