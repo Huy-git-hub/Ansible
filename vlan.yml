@@ -1,6 +1,6 @@
 ---
 - name: tao vlan
-  hosts: all
+  hosts: 10.215.27.19 
   gather_facts: no
 
   tasks:
