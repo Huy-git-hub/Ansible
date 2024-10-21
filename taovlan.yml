@@ -1,6 +1,6 @@
 ---
 - name: demo
-  hosts: Switch
+  hosts: S-10_10.215.27.10
 
   tasks:
     - name: Create vlan
