@@ -4,7 +4,7 @@
 
   tasks:
     - name: Create vlan
-      ios_vlan:
+      ios_l3_vlan:
         vlan_id: 100
         name: test-vlan
         state: present
